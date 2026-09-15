@@ -1,0 +1,26 @@
+body{
+    background-color: #000000;
+    
+}
+
+main{
+    background-color: #ff9999;
+    padding: 20px;
+}
+
+h1{
+    text-align: center;
+    color: #fff;
+}
+
+p{
+    text-align: center;
+    color: #ff0000;
+}
+
+img{
+    width: 500px;
+    height: 500px;
+    object-fit: cover;
+    margin: 10px;
+}

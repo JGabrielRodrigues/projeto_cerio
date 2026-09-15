@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Projeto 02</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container cabecalho__interno">
+            <a href="index.html" class="logo">Nome do Projeto</a>
+
+            <button class="menu-toggle" id="botaoMenu" aria-label="Abrir menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+
+            <nav class="menu" id="menu">
+                <a href="listagem.html">Itens</a>
+                <a href="cadastro.html">Cadastrar</a>
+                <a href="listagem.html" class="menu__destaque">Começar</a>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="capa">
+            <div class="container capa__interno">
+                <p class="capa__etiqueta">Projeto do curso</p>
+                <h1 class="capa__titulo">Organize tudo em um só lugar</h1>
+                <p class="capa__descricao">Descreva aqui, em uma ou duas frases, qual problema o seu projeto
+                    resolve e para quem ele é. Fale a língua de quem vai usar.</p>
+                <div class="capa__botoes">
+                    <a href="listagem.html" class="botao botao--principal">Ver itens</a>
+                    <a href="cadastro.html" class="botao botao--contorno">Cadastrar novo</a>
+                </div>
+                <div class="mural" aria-hidden="true">
+                    <div class="nota nota--1">
+                        <span class="nota__pino"></span>
+                        <span class="nota__etiqueta">Categoria</span>
+                        <p class="nota__titulo">Nome do item</p>
+                    </div>
+
+                    <div class="nota nota--2">
+                        <span class="nota__pino"></span>
+                        <span class="nota__etiqueta">Categoria</span>
+                        <p class="nota__titulo">Nome do item</p>
+                    </div>
+
+                    <div class="nota nota--3">
+                        <span class="nota__pino"></span>
+                        <span class="nota__etiqueta">Categoria</span>
+                        <p class="nota__titulo">Nome do item</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="fluxo">
+            <div class="container">
+                <h2 class="fluxo__titulo">Como funciona</h2>
+
+                <div class="linha-do-tempo">
+                    <div class="linha-do-tempo__trilho"></div>
+
+                    <div class="linha-do-tempo__passo">
+                        <span class="linha-do-tempo__ponto">1</span>
+                        <h3>Cadastre</h3>
+                        <p>Preencha um formulário simples para adicionar um novo item.</p>
+                    </div>
+
+                    <div class="linha-do-tempo__passo">
+                        <span class="linha-do-tempo__ponto">2</span>
+                        <h3>Liste e filtre</h3>
+                        <p>Veja todos os itens cadastrados e filtre pelo que importa.</p>
+                    </div>
+
+                    <div class="linha-do-tempo__passo">
+                        <span class="linha-do-tempo__ponto">3</span>
+                        <h3>Veja os detalhes</h3>
+                        <p>Acesse, edite ou remova qualquer item quando precisar.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sobre">
+            <div class="container sobre__interno">
+                <div class="nota-grande nota-grande--1">
+                    <h2>O problema</h2>
+                    <p>Descreva aqui o problema real que motivou o projeto. Use dados, um exemplo concreto
+                        ou a experiência de alguém para deixar claro por que isso importa.</p>
+                </div>
+
+                <div class="nota-grande nota-grande--2">
+                    <h2>A solução</h2>
+                    <p>Explique, em linguagem simples,
+                        como o seu projeto resolve esse problema no dia a dia de quem vai usá-lo.</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="chamada-final">
+            <div class="container chamada-final__interno">
+                <h2>Pronto para começar?</h2>
+                <a href="cadastro.html" class="botao botao--principal">Cadastrar o primeiro item</a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="rodape">
+        <div class="container rodape__interno">
+            <p>Nome do Projeto — feito por Integrante 1, Integrante 2 e Integrante 3.</p>
+            <a href="#" target="_blank" rel="noopener">Repositório no GitHub</a>
+        </div>
+    </footer>
+
+    <script src="assets/js/script.js"></script>
+</body>
+
+</html>

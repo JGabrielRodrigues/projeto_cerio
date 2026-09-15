@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 24px;
+    background: #f5f7fb;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 24px;
+}
+
+.linha {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 20px;
+    max-width: 1100px;
+    margin: 0 auto 24px;
+}
+
+.lugares {
+    background: #fff;
+    border-radius: 12px;
+    padding: 16px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.08);
+}
+
+.section-header h2 {
+    margin: 0 0 12px;
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.imagens img {
+    width: 100%;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 8px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.imagens p {
+    margin: 0;
+    line-height: 1.5;
+    text-align: center;
+}
+
+
